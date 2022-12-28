@@ -3,8 +3,8 @@ all:
     vr-csr:
       hosts:
         clab-csr-demo-rtr1:
-          ansible_host: 172.20.20.4
-        clab-csr-demo-rtr2:
           ansible_host: 172.20.20.2
+        clab-csr-demo-rtr2:
+          ansible_host: 172.20.20.4
         clab-csr-demo-rtr3:
           ansible_host: 172.20.20.3
