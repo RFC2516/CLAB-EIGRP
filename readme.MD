@@ -54,3 +54,7 @@ This lab can be torn down by executing the command in the same directory that "e
 ```
 clab destroy -t eigrp.yaml
 ```
+
+## Thanks!
+
+If you find this repository interesting please check out [my blog](https://rfc2516.github.io) to see how I'm using this testbed in experimentation and learning!
