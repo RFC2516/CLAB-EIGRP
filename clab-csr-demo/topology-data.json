@@ -6,7 +6,7 @@
       "prefix": "clab",
       "mgmt": {
         "network": "clab",
-        "bridge": "br-33d8f926ad0d",
+        "bridge": "br-65d3c1f5ffa4",
         "ipv4-subnet": "172.20.20.0/24",
         "ipv4-gw": "172.20.20.1",
         "ipv6-subnet": "2001:172:20:20::/64",
@@ -34,7 +34,7 @@
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-33d8f926ad0d",
+        "clab-mgmt-net-bridge": "br-65d3c1f5ffa4",
         "clab-node-group": "",
         "clab-node-kind": "vr-csr",
         "clab-node-lab-dir": "/root/labs/routing/eigrp/clab-csr-demo/rtr1",
@@ -61,7 +61,7 @@
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-33d8f926ad0d",
+        "clab-mgmt-net-bridge": "br-65d3c1f5ffa4",
         "clab-node-group": "",
         "clab-node-kind": "vr-csr",
         "clab-node-lab-dir": "/root/labs/routing/eigrp/clab-csr-demo/rtr2",
@@ -88,7 +88,7 @@
       "mgmt-ipv6-prefix-length": 64,
       "mac-address": "",
       "labels": {
-        "clab-mgmt-net-bridge": "br-33d8f926ad0d",
+        "clab-mgmt-net-bridge": "br-65d3c1f5ffa4",
         "clab-node-group": "",
         "clab-node-kind": "vr-csr",
         "clab-node-lab-dir": "/root/labs/routing/eigrp/clab-csr-demo/rtr3",
@@ -104,13 +104,13 @@
       "a": {
         "node": "rtr1",
         "interface": "eth1",
-        "mac": "aa:c1:ab:e1:c2:03",
+        "mac": "aa:c1:ab:c1:96:0e",
         "peer": "z"
       },
       "z": {
         "node": "rtr2",
         "interface": "eth1",
-        "mac": "aa:c1:ab:f3:41:de",
+        "mac": "aa:c1:ab:d2:86:53",
         "peer": "a"
       }
     },
@@ -118,13 +118,13 @@
       "a": {
         "node": "rtr1",
         "interface": "eth2",
-        "mac": "aa:c1:ab:b9:9a:f0",
+        "mac": "aa:c1:ab:ed:39:fa",
         "peer": "z"
       },
       "z": {
         "node": "rtr3",
         "interface": "eth2",
-        "mac": "aa:c1:ab:bd:3f:a3",
+        "mac": "aa:c1:ab:66:ce:a8",
         "peer": "a"
       }
     },
@@ -132,13 +132,13 @@
       "a": {
         "node": "rtr2",
         "interface": "eth3",
-        "mac": "aa:c1:ab:d0:32:f1",
+        "mac": "aa:c1:ab:e2:7f:90",
         "peer": "z"
       },
       "z": {
         "node": "rtr3",
         "interface": "eth3",
-        "mac": "aa:c1:ab:86:94:8d",
+        "mac": "aa:c1:ab:70:79:fd",
         "peer": "a"
       }
     }
