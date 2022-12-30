@@ -1,6 +1,8 @@
 # Preamble
 
-This repository includes a topology definition file for three Cisco CSR1000v running 17.03.04 code which can be launched by Containerlab. In this lab I have preconfigured IP addressing and the EIGRP Routing Protocol to serve as a baseline for experimentation.  I've also included an ansible backup playbook in the directory to allow you to back up your running configuration so they lab may be torn down and rebuilt without the loss of progress.
+This repository includes a topology definition file for four Cisco CSR1000v running 17.03.04 code which can be launched by Containerlab. In this lab I have preconfigured IP addressing and the EIGRP Routing Protocol to serve as a baseline for experimentation.  I've also included an ansible backup playbook in the directory to allow you to back up your running configuration so they lab may be torn down and rebuilt without the loss of progress.
+
+![Topology](./media/clab-graph-details.png)
 
 ## Software Requirements
 
