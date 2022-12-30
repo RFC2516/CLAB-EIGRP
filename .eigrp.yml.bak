@@ -18,7 +18,10 @@ topology:
       kind: vr-csr
     rtr3:
       kind: vr-csr
+    rtr4:
+      kind: vr-csr
   links:
   - endpoints: ["rtr1:eth1", "rtr2:eth1"]
   - endpoints: ["rtr1:eth2", "rtr3:eth2"]
   - endpoints: ["rtr2:eth3", "rtr3:eth3"]
+  - endpoints: ["rtr3:eth1", "rtr4:eth1"]
